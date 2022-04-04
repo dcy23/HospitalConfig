@@ -1,2 +1,0 @@
-# HospitalConfig
-Hospital Configuration

@@ -1,0 +1,18 @@
+server:
+  port: 8092
+
+# actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        # include: refresh
+
+report:
+  enabled: false
+
+process-config:
+  enabled: true
+  max-attempts: 10
+  options: option1, options2

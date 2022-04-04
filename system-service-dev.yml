@@ -1,0 +1,22 @@
+server:
+  port: 8091
+
+# actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        # include: refresh
+
+spring:
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost/hospitaldb
+    username: postgres
+    password: sysdba
