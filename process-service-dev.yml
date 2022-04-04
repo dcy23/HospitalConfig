@@ -14,5 +14,5 @@ report:
 
 process-config:
   enabled: true
-  max-attempts: 10
+  max-attempts: 3
   options: option1, options2
