@@ -10,12 +10,12 @@ management:
         # include: refresh
 
 system:
-  enabled: false
+  enabled: true
 
 system-config:
   enabled: true
   max-attempts: 10
-  options: optionA, optionsB
+  options: optionA, optionB
 
 spring:
   jpa:
