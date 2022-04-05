@@ -9,10 +9,10 @@ management:
         include: '*'
         # include: refresh
 
-report:
+process:
   enabled: false
 
 process-config:
   enabled: true
   max-attempts: 3
-  options: option1, options2
+  options: option1, option2

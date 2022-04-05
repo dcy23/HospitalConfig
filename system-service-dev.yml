@@ -9,6 +9,14 @@ management:
         include: '*'
         # include: refresh
 
+system:
+  enabled: false
+
+system-config:
+  enabled: true
+  max-attempts: 10
+  options: optionA, optionsB
+
 spring:
   jpa:
     database: postgresql
