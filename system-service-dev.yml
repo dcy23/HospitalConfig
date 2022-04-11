@@ -25,6 +25,6 @@ spring:
       ddl-auto: update
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost/hospitaldb
+    url: jdbc:postgresql://localhost/hospitaldbv1
     username: postgres
     password: sysdba
